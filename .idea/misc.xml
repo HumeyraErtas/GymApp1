@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Alperen/AndroidStudioProjects/GymApp/app/src/main/res/drawable-v24/ic_cardview_border.xml" value="0.13" />
         <entry key="..\:/Users/Alperen/AndroidStudioProjects/GymApp/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.105" />
         <entry key="..\:/Users/Alperen/AndroidStudioProjects/GymApp/app/src/main/res/drawable/custom_button.xml" value="0.105" />
         <entry key="..\:/Users/Alperen/AndroidStudioProjects/GymApp/app/src/main/res/drawable/ic_launcher_background.xml" value="0.105" />
@@ -11,6 +12,7 @@
         <entry key="..\:/Users/Alperen/AndroidStudioProjects/GymApp/app/src/main/res/layout/activity_main.xml" value="0.152" />
         <entry key="..\:/Users/Alperen/AndroidStudioProjects/GymApp/app/src/main/res/layout/activity_notification.xml" value="0.2296875" />
         <entry key="..\:/Users/Alperen/AndroidStudioProjects/GymApp/app/src/main/res/layout/activity_splash_screen.xml" value="0.2296875" />
+        <entry key="..\:/Users/Alperen/AndroidStudioProjects/GymApp/app/src/main/res/layout/list_item.xml" value="0.2296875" />
       </map>
     </option>
   </component>
