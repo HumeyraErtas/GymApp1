@@ -1,4 +1,4 @@
-package com.alperen.gymapp
+package com.alperen.gymapp.Activities
 
 import android.app.*
 import android.content.Context

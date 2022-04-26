@@ -1,9 +1,10 @@
-package com.alperen.gymapp
+package com.alperen.gymapp.Activities
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
+import com.alperen.gymapp.R
 
 class SplashScreenActivity : AppCompatActivity() {
     lateinit var handler:Handler
@@ -14,7 +15,7 @@ class SplashScreenActivity : AppCompatActivity() {
 
         handler = Handler()
         handler.postDelayed({
-            val intent = Intent(this,MainActivity::class.java)
+            val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
             finish()
         },3000)
