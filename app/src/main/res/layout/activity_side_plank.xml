@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    tools:context=".Activities.MainActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_margin="10dp"
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Side Plank"
+        android:textSize="40sp"
+        android:textColor="@android:color/holo_blue_light"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="20dp"
+        android:text="Sol kolumuzun dirseği omuz hizasında yere dik gelecek şekilde konumlandırıyoruz. Ayaklarımız üst üste olacak şekilde durup kendimizi dirseğimizin ve bir ayağımızın üzerinde kaldırıyoruz. Diğer kolumuz vücudumuzun üstünde duracaktır. Başlangıç olarak 15 saniye durabilirsiniz. Güçlendikçe bu süreyi uzatabiliriz. 15 saniye yaptıktan sonra diğer tarafa geçmeliyiz."
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Videosunu İzle"
+        android:layout_margin="10dp"
+        android:padding="20dp"
+        android:textColor="@android:color/holo_blue_light" />
+</LinearLayout>

@@ -27,4 +27,9 @@ class ExerciseActivity : AppCompatActivity() {
         adapter = RecyclerAdapter()
         recyclerView.adapter = adapter
     }
+
+
+
+
+
 }

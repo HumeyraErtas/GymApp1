@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    tools:context=".Activities.MainActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_margin="10dp"
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Star Jump"
+        android:textSize="40sp"
+        android:textColor="@android:color/holo_blue_light"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="20dp"
+        android:text="Ayaklarınla ​​birlikte dur. Dizlerinizi hafifçe bükün. Kollarını yanlarına koy.
+Dizlerinizi bükün ve kendinizi bir çömelme pozisyonuna indirin. Hafifçe öne eğilmek. Ellerinizi indirin ve çömelirken önünüze hafifçe getirin; böylece çömelme dibinde diz hizasında olurlar.
+Olabildiğince yükseğe zıpla. Aynı zamanda, kollarınızı havaya ve dışa V konumunda kaldırın. Kollarınızı da uzatılmış halde bacaklarınızı ters V pozisyonuna açın. Vücut bir yıldızın ana hatlarını oluşturur.
+Atlamadan inerken kollarınızı ve bacaklarınızı getirin. Ayaklarınızla birlikte yere inin ve dizleriniz hafifçe eğildi.
+Kollarınız yanlarda ve dizleriniz hafifçe bükülmüş olarak ayağa kalkın. Kendinizi bir çömelme pozisyonuna geri indirin. İnişi yaptıktan sonra tekrar yukarı bastırarak ve kollarınızı ve bacaklarınızı yıldız sıçramasına doğru uzatarak egzersizi tekrarlayın."
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Videosunu İzle"
+        android:layout_margin="10dp"
+        android:padding="20dp"
+        android:textColor="@android:color/holo_blue_light" />
+</LinearLayout>

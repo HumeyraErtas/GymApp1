@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    tools:context=".Activities.MainActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_margin="10dp"
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Squat"
+        android:textSize="40sp"
+        android:textColor="@android:color/holo_blue_light"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="20dp"
+        android:text="Squat hareketi ayakta başlar. Ayaklar omuz hizasında açıktır. Eller önce iki yanda durur, yere çömelirken eller birleşir.
+Başın dik ve bakışların ileri doğru olmalı.
+Göğsünü yukarıda tut. Ayaktayken nefes alıp, çömelirken verebilirsin. Tersini de deneyebilirsin. Kendin için en uygun nefesi keşfet.
+Belini düz tutmak için enerji harcama, doğal kıvrımında kalsın.
+Kendi gücüne göre kalça ve basenler yere paralel veya inebildiğin kadar aşağıda olabilir. Topuklarının üzerine oturmadan tabii.
+Dizlerin ayak uçlarının önüne geçmemesi hareketin genel bütünlüğü açısından önemli.
+Ayak tabanların yere düz bassın, ağırlığını topuklarına ver. Biraz daha zorlaşsın istersen ayak parmaklarını kaldırmayı dene."
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Videosunu İzle"
+        android:layout_margin="10dp"
+        android:padding="20dp"
+        android:textColor="@android:color/holo_blue_light" />
+</LinearLayout>

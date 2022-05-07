@@ -12,10 +12,33 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.GymApp">
         <activity
+            android:name=".Activities.StarJumpActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.SidePlankActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.PushUpActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.PullUpActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.PlankActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.LungeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.ChairDipsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.SquatActivity"
+            android:exported="false" />
+        <activity
             android:name=".Activities.ExerciseActivity"
             android:exported="false" />
         <activity android:name=".Activities.MainActivity" />
-
 
         <receiver
             android:name=".Activities.Notification"
@@ -31,7 +54,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Activities.NotificationActivity"></activity>
+        <activity android:name=".Activities.NotificationActivity" />
     </application>
 
 </manifest>

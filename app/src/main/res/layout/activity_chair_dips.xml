@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    tools:context=".Activities.MainActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_margin="10dp"
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chair Dips"
+        android:textSize="40sp"
+        android:textColor="@android:color/holo_blue_light"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="20dp"
+        android:text="Düz bir bench üzerine eller omuz genişliğinde açıklanarak sabitlenir. Mesafe ne kadar kısa olursa kişinin kendisini kaldırması da o kadar kolay olacaktır. Eller sabitlendikten sonra ayaklar kırılmayacak şekilde uzatılır. Harekete alışabilmek ve nefes kontrolünü sağlayabilmek için bir kere olmak şartı ile dirseklerin kitlenmesi yapılabilir. Set süresince dirsekler bir daha kitlenmemelidir. Bu durumun sebebi ise yükün eklem bölgesinde değil arka kolda olmasını sağlamak içindir.
+
+Nefes alınır ve yaklaşık 2 saniye sonunda vücut aşağıya doğru salınır. Dip noktaya ulaşıldığında 1 saniye kadar beklenilir ve sonrasında nefes verilerek 1,5 saniye sonrasında yükselişe geçilir.
+
+Tepe noktaya ulaşıldığında dirsekler kitlenmeden yaklaşık 1 saniye kadar beklenilir ve ardından tekrar inişe geçilir.
+
+Bench dips hareketi 4 set ve 10 tekrar şeklinde yapılmaktadır. 10 tekrarın kolay bir şekilde yapılmasından sonraki süreçte ayaklar başka bir benche uzatılır ve karın üzerine ağırlık koyularak egzersize devam edilir."
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Videosunu İzle"
+        android:layout_margin="10dp"
+        android:padding="20dp"
+        android:textColor="@android:color/holo_blue_light" />
+</LinearLayout>

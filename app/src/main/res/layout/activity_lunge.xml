@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    tools:context=".Activities.MainActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_margin="10dp"
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lunge"
+        android:textSize="40sp"
+        android:textColor="@android:color/holo_blue_light"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="20dp"
+        android:text="Ayaklar kalça genişliğinde açılarak, iki girya front rack pozunda tutularak, ayakta durulur. Bir bacak ile arkaya doğru önemli bir lunge adımı atılır. Giryalar göğüs hizasında kalmalıdır. Arka diz zemine değdirilir, daha sonra öndeki ayak topuğuna yüklenilerek, hareket ters şekilde uygulanır ve kişi doğrulur. Diğer bacakla aynı uygulama tekrar edilir ve her tekrar için bacak değişimi yapılır."
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Videosunu İzle"
+        android:layout_margin="10dp"
+        android:padding="20dp"
+        android:textColor="@android:color/holo_blue_light" />
+</LinearLayout>
