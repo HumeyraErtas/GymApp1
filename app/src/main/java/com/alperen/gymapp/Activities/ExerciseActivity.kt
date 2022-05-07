@@ -2,6 +2,7 @@ package com.alperen.gymapp.Activities
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Toast
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.alperen.gymapp.Adapters.RecyclerAdapter
@@ -26,7 +27,9 @@ class ExerciseActivity : AppCompatActivity() {
 
         adapter = RecyclerAdapter()
         recyclerView.adapter = adapter
+
     }
+
 
 
 
